@@ -12,7 +12,7 @@ env:
   UPDATE_IPV6: false
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: 'Checkout'
         uses: actions/checkout@v3
